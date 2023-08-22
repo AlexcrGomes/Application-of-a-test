@@ -1,2 +1,2 @@
-# EstruturaDeDados
- application of a test
+# Application of a test
+Activity to train data structure.
