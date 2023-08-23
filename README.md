@@ -1,2 +1,2 @@
 # Application of a test
-Activity to train data structure.
+Application to practice and improve the Java language

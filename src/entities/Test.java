@@ -2,22 +2,18 @@ package entities;
 
 import java.util.Scanner;
 
-public class test {
+public class Test {
 	private Student studantTested;
 	private Question question1, question2, question3, question4;
 	private int answer1, answer2, answer3, answer4;
 	private double grade;
 	
-	public test(Student studantTested, Question question1, Question question2, Question question3, Question question4) {
+	public Test(Student studantTested, Question question1, Question question2, Question question3, Question question4) {
 		this.studantTested = studantTested;
 		this.question1 = question1;
 		this.question2 = question2;
 		this.question3 = question3;
 		this.question4 = question4;
-		this.answer1 = 9999;
-		this.answer2 = 9999;
-		this.answer3 = 9999;
-		this.answer4 = 9999;
 		this.grade = 0;
 	}
 	
@@ -28,22 +24,22 @@ public class test {
 		System.out.print("Select the right answer: ");
 		answer1 = reader.nextInt();
 		System.out.println();
-		
+		System.out.println("--------------------------");
 		System.out.println(question2.toString());
 		System.out.print("Select the right answer: ");
 		answer2 = reader.nextInt();
 		System.out.println();
-		
+		System.out.println("--------------------------");
 		System.out.println(question3.toString());
 		System.out.print("Select the right answer: ");
 		answer3 = reader.nextInt();
 		System.out.println();
-		
+		System.out.println("--------------------------");
 		System.out.println(question4.toString());
 		System.out.print("Select the right answer: ");
 		answer4 = reader.nextInt();
 		System.out.println();
-		
+		System.out.println("--------------------------");
 		reader.close();
 	}
 	
@@ -66,7 +62,7 @@ public class test {
 
 	public void showResult() {
 		System.out.println(studantTested.getName() +"'s test");
-		System.out.println("Result: " + grade);
+		System.out.printf("Result: %.2f", grade);
 		
 		
 		/*if (question1.checkAnswer(answer1)) {
