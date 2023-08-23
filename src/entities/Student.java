@@ -2,11 +2,11 @@ package entities;
 
 public class Student {
 	private String name;
-	private int registration;
+	private int enrolment;
 	
 	public Student(String name, int registration) {
 		this.name = name;
-		this.registration = registration;
+		this.enrolment = registration;
 	}
 
 	public String getName() {
@@ -18,11 +18,11 @@ public class Student {
 	}
 
 	public int getRegistration() {
-		return registration;
+		return enrolment;
 	}
 
 	public void setRegistration(int registration) {
-		this.registration = registration;
+		this.enrolment = registration;
 	}
 	
 	

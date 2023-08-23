@@ -24,22 +24,22 @@ public class Test {
 		System.out.print("Select the right answer: ");
 		answer1 = reader.nextInt();
 		System.out.println();
-		System.out.println("--------------------------");
+		System.out.println("----------------------------------");
 		System.out.println(question2.toString());
 		System.out.print("Select the right answer: ");
 		answer2 = reader.nextInt();
 		System.out.println();
-		System.out.println("--------------------------");
+		System.out.println("----------------------------------");
 		System.out.println(question3.toString());
 		System.out.print("Select the right answer: ");
 		answer3 = reader.nextInt();
 		System.out.println();
-		System.out.println("--------------------------");
+		System.out.println("----------------------------------");
 		System.out.println(question4.toString());
 		System.out.print("Select the right answer: ");
 		answer4 = reader.nextInt();
 		System.out.println();
-		System.out.println("--------------------------");
+		System.out.println("----------------------------------");
 		reader.close();
 	}
 	
